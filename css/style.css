@@ -1,0 +1,312 @@
+@font-face {
+    font-family: 'heebomedium';
+    src: url('../fonts/heebo-medium-webfont.eot');
+    src: url('../fonts/heebo-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/heebo-medium-webfont.woff2') format('woff2'),
+    url('../fonts/heebo-medium-webfont.woff') format('woff'),
+    url('../fonts/heebo-medium-webfont.ttf') format('truetype'),
+    url('../fonts/heebo-medium-webfont.svg#heebomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'heebobold';
+    src: url('../fonts/heebo-bold-webfont.eot');
+    src: url('../fonts/heebo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/heebo-bold-webfont.woff2') format('woff2'),
+    url('../fonts/heebo-bold-webfont.woff') format('woff'),
+    url('../fonts/heebo-bold-webfont.ttf') format('truetype'),
+    url('../fonts/heebo-bold-webfont.svg#heebobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding-top: 27px;
+ }
+
+.container{
+    max-width: 1032px;
+    margin: auto
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end
+}
+
+header nav ul li{
+    margin-left: 33px;
+    transition: 0.3s;
+}
+header nav ul li:hover{
+    transform: rotate(360deg);
+}
+header nav ul li a{
+    font: 20px/29px 'heebomedium';
+    text-decoration: none;
+    color: #000000;
+}
+.main_banner{
+    padding-top: 140px;
+    padding-bottom: 71px
+}
+.main_banner a {
+    background: #FF6464;
+    border-radius: 2px;
+    padding: 13px 20px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.main_banner a:hover {
+    background-color: yellow;
+}
+.main_banner p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 38px;
+    color: #21243D;
+}
+
+.main_banner .container {
+    max-width: 858px;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-start{
+    align-items: start
+}
+
+.content{
+    max-width: 498px;
+}
+
+.about_me{
+    font-family: 'heebobold';
+    font-size: 44px;
+    line-height: 60px;
+    margin-bottom: 40px;
+    color: #21243D;
+}
+
+.foto{
+    max-width: 243px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.foto_img{
+    display: block;
+    width: 100%
+}
+
+.work{
+    padding-top: 27px;
+    padding-bottom: 87px
+}
+.work_banner{
+    max-width: 858px;
+    margin: auto;
+}
+.about_works{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    /* identical to box height, or 273% */
+    /* Dark Color */
+    color: #21243D;
+    padding-bottom: 2px;
+}
+.pictures{
+    max-width: 246px;
+    height: 180px;
+    border-radius: 6px;
+    display: flex;
+}
+.work h2{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    /* identical to box height */
+    /* Dark Color */
+    color: #21243D;
+    margin-left: 18px;
+}
+.year{
+    background: #142850;
+    border-radius: 16px;
+    padding: 0px 10px;
+    margin: 20px 26px 22px 18px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    /* identical to box height, or 333% */
+    color: #FFFFFF;
+}
+.activity{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    /* Light */
+    color: #8695A4;
+}
+.work p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* Dark Color */
+    color: #21243D;
+    margin-left: 18px;
+}
+.line{
+    max-width: 858px;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 31px 0px 15px 0px;
+    text-align: justify;
+}
+
+.template{
+    padding: 68px;
+    background-color: #000000
+}
+.template .template_container{
+    max-width: 564px;
+    margin: auto
+}
+.template .template_container form{
+    text-align: center;
+}
+.template_name{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 18px 31px;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 0px;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    /*text-align: center;*/
+}
+.template_email{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 18px 31px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0px;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    /*text-align: center;*/
+}
+.template_budget{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 18px 31px;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 0px;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    /*text-align: center;*/
+}
+.info{
+    display: block
+}
+.template textarea{
+    resize: none;
+    height: 127px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 17px 31px;
+    margin-bottom: 22px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0px;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    /*text-align: center;*/
+}
+.template button{
+    background-color: transparent;
+    border: solid 2px #7EC4BD;
+    padding: 15px 60px;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #8BCAC3;
+}
+
+footer{
+    padding-top: 51px;
+    padding-bottom: 54px;
+}
+footer div ul li a p{
+    margin: auto
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+footer div ul li{
+    margin: 0px 17px;
+    margin-bottom: 26px;
+}
+footer div ul li a img{
+    width: 30px;
+    display: block;
+}
+footer p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+    text-decoration: none;
+}
